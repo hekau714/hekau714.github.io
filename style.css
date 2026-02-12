@@ -24,6 +24,20 @@
     display: inline-block; /* Ensures gradient matches text length */  
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background-image: url("bg.png"); /* Specify the image file */
+  background-position: center; /* Center the image in the viewport */
+  background-repeat: no-repeat; /* Prevents the image from tiling */
+  background-size: cover; /* Scales the image to cover the entire container */
+  background-attachment: fixed; /* Keeps the background fixed as content scrolls */
+}
+
 img#one { 
     display: block; 
     margin-left: auto; 
